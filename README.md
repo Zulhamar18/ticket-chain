@@ -6,7 +6,8 @@
 - [Whitepaper & Dokumentasi Teknis PDF](https://github.com/Zulhamar18/ticket-chain/blob/main/Ticket%20Chain%20Project%20Whitepaper%20and%20Technical%20Documentation%20(1).pdf)
 # Ticket Chain Project
 
-[Logo Ticket Chain](assets/Airplan Chain.png)
+[Logo Ticket Chain](assets/images/Airplan Chain.png)
+
 
 
 ## Deskripsi Proyek
