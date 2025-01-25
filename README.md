@@ -6,7 +6,8 @@
 - [Whitepaper & Dokumentasi Teknis PDF](https://github.com/Zulhamar18/ticket-chain/blob/main/Ticket%20Chain%20Project%20Whitepaper%20and%20Technical%20Documentation%20(1).pdf)
 # Ticket Chain Project
 
-![Logo Ticket Chain](assets/Airplan%20Chain.png)
+[Logo Ticket Chain](assets/Airplan Chain.png)
+
 
 ## Deskripsi Proyek
 Ticket Chain adalah platform berbasis blockchain yang memungkinkan pembelian tiket untuk acara olahraga, konser, festival, dan lainnya menggunakan cryptocurrency. Dengan memanfaatkan teknologi blockchain, kami menawarkan solusi aman, transparan, dan efisien untuk transaksi tiket digital.
