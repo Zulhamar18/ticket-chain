@@ -12,9 +12,9 @@
 Ticket Chain adalah platform berbasis blockchain yang memungkinkan pembelian tiket untuk acara olahraga, konser, festival, dan lainnya menggunakan cryptocurrency. Dengan memanfaatkan teknologi blockchain, kami menawarkan solusi aman, transparan, dan efisien untuk transaksi tiket digital.
 
 ## Fitur Utama
-- Pembelian tiket menggunakan cryptocurrency
-- Tiket berbasis NFT untuk mengurangi risiko penipuan
-- Transparansi dan efisiensi melalui teknologi blockchain
+Purchasing tickets using cryptocurrency
+NFT-based tickets to reduce fraud risk
+Transparency and efficiency through blockchain technology
 
 ## Dokumentasi
 - [Dokumentasi Teknis](technical-documentation.md)
