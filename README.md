@@ -1,18 +1,17 @@
 # Ticket Chain – Web3 Travel Booking Platform
 
-🎫 **Ticket Chain** adalah platform pembelian tiket perjalanan berbasis blockchain yang memungkinkan pengguna membeli tiket pesawat, kereta, atau acara langsung menggunakan cryptocurrency (seperti USDC), dengan e-ticket berbasis NFT dan transparansi penuh melalui teknologi blockchain.
+🎫 **Ticket Chain** adalah platform pembelian tiket berbasis blockchain yang memungkinkan pembayaran via USDC, integrasi MetaMask Card, LI.FI SDK, dan NFT e-ticket.
 
 🔗 **Hackathon Submission for MetaMask Card Hackathon**
 
 ## 🎯 Deskripsi Proyek
 
-Ticket Chain mengeksplorasi integrasi antara Web3 dan layanan travel booking tradisional.  
-Platform ini memungkinkan:
-
-- Pembayaran tiket via **USDC**
-- Penggunaan **MetaMask Card** untuk checkout
-- Cross-chain payments dengan **LI.FI SDK**
-- E-ticket berbasis **NFT (ERC-721)**
+Ticket Chain mengeksplorasi penggunaan teknologi blockchain untuk pembelian tiket perjalanan dengan pendekatan Web3.  
+Fitur utama:
+- Pembayaran Tiket menggunakan **USDC**
+- Integrasi **MetaMask SDK / Delegation Toolkit**
+- Cross-chain payment dengan **LI.FI SDK**
+- E-Ticket berbasis **NFT (ERC-721)**
 
 ## 🔧 Teknologi yang Digunakan
 
@@ -25,6 +24,6 @@ Platform ini memungkinkan:
 | **Solidity** | Kontrak pintar untuk NFT Tiket |
 | **OpenZeppelin Contracts** | Untuk standar ERC-721 |
 | **LI.FI SDK** | Cross-chain transfer (Track 4) |
-| **USDC Testnet** | Pembayaran tiket |
+| **USDC Testnet** | Pembayaran tiket
 
 ## 📁 Struktur Proyek
