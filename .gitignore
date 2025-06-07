@@ -1,8 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Next.js
+/.next/
+/out/
+/cache/
+/build/
 
 # dependencies
 /node_modules
 /.pnp
+.pnpm-store
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -10,32 +15,56 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
+# Testing
 /coverage
+/jest
+/vitest
+/cypress
+/playwright
 
-# next.js
-/.next/
-/out/
+# Production
+/dist
 
-# production
-/build
-
-# misc
+# Misc
 .DS_Store
 *.pem
-
-# debug
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+.vercel
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+*.log
 
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
+# TypeScript / Next.js type generation
 *.tsbuildinfo
 next-env.d.ts
+globals.css.d.ts
+
+# Git local exclude (file ini tidak akan tercommit)
+.git/info/exclude
+
+# IDE files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS generated
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+.eaDir
+# Hanya abaikan file sementara Solidity
+contracts/*.temp.sol
+contracts/*Temp.sol
