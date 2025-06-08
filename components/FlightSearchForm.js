@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { useAccount } from 'wagmi';
-import { RainbowKitButton } from './RainbowKitButton';
+import Image from 'next/image';
 
 export default function FlightSearchForm() {
   const { address, isConnected } = useAccount();
@@ -29,13 +29,14 @@ export default function FlightSearchForm() {
 
     setLoading(true);
     setTimeout(() => {
-      alert('Pembayaran sukses! Tiket pesawat akan dikirim ke wallet Anda.');
+      alert('Pembayaran sukses! NFT Tiket akan dikirim ke wallet Anda.');
       setLoading(false);
     }, 2000);
   };
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-md max-w-2xl mx-auto">
+      <h2 className="text-xl font-semibold mb-4">✈️ Cari Tiket Pesawat</h2>
       <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
         <div>
           <label className="block text-sm font-medium text-gray-700">From</label>
@@ -43,7 +44,6 @@ export default function FlightSearchForm() {
             type="text"
             name="from"
             placeholder="Asal Kota / Bandara"
-            value={formData.from}
             onChange={handleChange}
             className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
           />
@@ -54,7 +54,6 @@ export default function FlightSearchForm() {
             type="text"
             name="to"
             placeholder="Tujuan Kota / Bandara"
-            value={formData.to}
             onChange={handleChange}
             className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
           />
@@ -65,7 +64,6 @@ export default function FlightSearchForm() {
             <input
               type="date"
               name="departureDate"
-              value={formData.departureDate}
               onChange={handleChange}
               className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             />
@@ -75,17 +73,15 @@ export default function FlightSearchForm() {
             <input
               type="date"
               name="returnDate"
-              value={formData.returnDate}
               onChange={handleChange}
               className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             />
           </div>
         </div>
         <button
-          type="button"
           onClick={handleBuyTicket}
           disabled={!isConnected || loading}
-          className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700 transition disabled:bg-green-400"
+          className={`w-full bg-green-600 text-white py-2 rounded hover:bg-green-700 transition ${loading ? 'bg-green-400' : ''}`}
         >
           {loading ? 'Processing...' : 'Cari & Bayar Tiket'}
         </button>

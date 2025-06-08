@@ -33,19 +33,16 @@
 *.env.test.local
 *.env.production.local
 .vercel
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
-*.log
 
 # TypeScript / Next.js type generation
 *.tsbuildinfo
 next-env.d.ts
 globals.css.d.ts
-
-# Git local exclude (file ini tidak akan tercommit)
-.git/info/exclude
 
 # IDE files
 .vscode/*
@@ -59,12 +56,12 @@ globals.css.d.ts
 *.ipr
 *.iws
 
-# OS generated
+# OS generated files
 Thumbs.db
 desktop.ini
 ehthumbs.db
 Icon?
 .eaDir
-# Hanya abaikan file sementara Solidity
-contracts/*.temp.sol
-contracts/*Temp.sol
+
+# Git local exclude (file ini tidak akan tercommit)
+.git/info/exclude
